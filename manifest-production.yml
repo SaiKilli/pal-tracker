@@ -4,4 +4,4 @@ applications:
   path: build/libs/pal-tracker.jar
   random-route: true
   routes:
-    - route: ps-pal-tracker.apps.evans.pal.pivotal.io
+    - route: sk-pal-tracker.apps.evans.pal.pivotal.io
