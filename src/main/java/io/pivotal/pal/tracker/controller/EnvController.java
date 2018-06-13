@@ -24,11 +24,6 @@ public class EnvController {
         envMap.put("CF_INSTANCE_ADDR", CF_INSTANCE_ADDR);
     }
 
-    /*public EnvController() {
-        envMap = new HashMap<>();
-        envMap.put("PORT", PORT);
-    }*/
-
     @RequestMapping("/env")
     public Map<String, String> getEnv() {
         return envMap;
