@@ -16,7 +16,7 @@ test.environment([
 ])
 
 dependencies {
-    compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.springframework.boot:spring-boot-starter-web', "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.1")
     runtime('org.springframework.boot:spring-boot-starter-actuator')
     testCompile('junit:junit:4.12',
             'org.springframework.boot:spring-boot-starter-test')
