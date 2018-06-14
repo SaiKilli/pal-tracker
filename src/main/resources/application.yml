@@ -5,10 +5,6 @@ security:
   basic:
     enabled: false
 
-management:
-  security:
-    enabled: false
-
 WELCOME_MESSAGE: hello
 PORT: 8088
 MEMORY_LIMIT: 256
